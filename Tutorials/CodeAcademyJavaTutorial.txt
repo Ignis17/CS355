@@ -1,0 +1,276 @@
+Code Academy - Java Tutorial
+
+Name: Joel Turbi
+Course: CS 355
+Professor: Dr. Zavala
+Date: 01/30/2019
+Due Date: 02/02/2019
+
+
+#### Introduction to Java ####
+
+* Java is a programming language designed to build secure, powerful
+  applications that run across multiple operating systems, including
+  Linux, Mac OS X, and Windows. The Java language is known to be flexible, scalable, and maintainable.
+
+## YourName.java Program ##
+* Description: On line 4,type your name within double quotes between the parentheses like this:
+                        E.g --> System.out.println("Gilberto");
+
+  public class YourName
+  {
+	 public static void main(String[] args)
+  {
+    System.out.println("Joel Turbi");
+   }
+  }
+
+### Data Types  I: int ###
+
+1) int is short for integer, which are all positive and negative numbers, including zero. This number could represent the number of visits a website has received or the number of programming languages you know.
+
+2) The int data type only allows values between -2,147,483,648 and 2,147,483,647.
+
+## DataTypes.java Program ##
+
+  public class DataTypes
+  {
+	   public static void main(String[] args)
+     {
+      System.out.println(100);
+	   }
+  }
+
+### Data Types II: boolean ###
+
+1)  Boolean is a data type that can only be either true or false.
+
+## DataTypesB.java Program ##
+
+public class DataTypesB
+{
+	public static void main(String[] args)
+  {
+		System.out.println(true);
+	}
+}
+
+### Data Types III: char ###
+
+* The char data type is used to represent single characters. That includes the keys on a keyboard that are used to produce text.
+
+1) char is short for character and can represent a single character.
+
+2) All char values must be enclosed in single quotes, like this: 'G'.
+
+## DataTypesC.java Program ##
+
+public class DataTypesC
+{
+	public static void main(String[] args)
+  {
+		System.out.println('J');
+	}
+}
+
+### Variables ###
+
+* The int, boolean, and char are fundamental data types of Java that we will see again later in the course.
+
+* Another important feature of Java (and of many programming languages) is the ability to store values using variables.
+
+1) A variable stores a value.
+
+2) In Java, all variables must have a specified data type.
+
+* Note: A semicolon ; is also used to end all Java single code statements.
+
+## Variables.java Program ##
+
+public class Variables
+{
+	public static void main(String[] args)
+  {
+		int myNumber=42;
+		boolean isFun=true;
+		char movieRating='A';
+	}
+}
+
+### Whitespace ###
+
+* Whitespace is one or more characters (such as a space, tab, enter, or return) that do not produce a visible mark or text. Whitespace is often used to make code visually presentable.
+
+* Java will ignore whitespace in code, but it is important to know how to use whitespace to structure code well. If you use whitespace correctly, code will be easier for you and other programmers to read and understand.
+
+## WhiteSpace.java Program ##
+
+public class WhiteSpace
+{
+	public static void main(String[] args)
+  {
+    boolean isFormatted=false;
+    System.out.println(isFormatted);
+	}
+}
+
+### Comments ###
+
+* A comment is text you want Java to ignore. Comments allow you to describe code or keep notes.
+
+* By using comments in the Java code, you may help yourself and even other programmers understand the purpose of code that a comment refers to.
+
+* In Java, there are two styles of comments: single line comments and multi-line comments.
+
+1) Single line comments are one line comments that begin with two forward slashes:
+        E.g.// I'm a single line comment!
+
+1) Multi-line comments are generally longer comments that can span multiple lines. They begin with /* and end with */ . Here's an example:
+    /*
+
+      Hello,
+      Java!
+
+    */
+
+## Comments.java Program ##
+
+public class Comments
+{
+	public static void main(String[] args)
+  {
+		//System.out.println("Noise!");
+		 /*
+      This is a multi-line comment.
+     */
+	}
+}
+
+### Math: +, -, *, and / ###
+
+* You can add, subtract, multiply, and divide numbers and store them in variables like this:
+
+  int sum = 34 + 113;
+  int difference = 91 - 205;
+  int product = 2 * 8;
+  int quotient = 45 / 3;
+
+## Arithmetic.java Program ##
+
+public class Arithmetic
+{
+	public static void main(String[] args)
+  {
+    int myNumber = 2*2;
+		System.out.println(myNumber);
+	}
+}
+
+### Math: % ###
+
+* Let's explore one more special math operator known as modulo.
+
+1) The modulo operator - represented in Java by the % symbol - returns the remainder of dividing two numbers.
+
+* For example, 15 % 6 will return the value of 3, because that is the remainder left over after dividing 15 by 6.
+
+## Modulo.java Program ##
+
+public class Modulo
+{
+	public static void main(String[] args)
+  {
+    int myRemainder = 6%4;
+		System.out.println(myRemainder);
+	}
+}
+
+### Relational Operators ###
+
+* Let's explore another set of useful operators available in Java known as relational operators.
+
+* Relational operators compare data types that have a defined ordering, like numbers (since numbers are either smaller or larger than other numbers).
+
+* Relational operators will always return a boolean value of true or false.
+
+* ere are a few relational operators:
+
+    < : less than.
+    <=: less than or equal to.
+    >: greater than.
+    >=: greater than or equal to.
+
+* A relational operator is placed between the two operands (the terms that you want to compare using the relational operator). The result of a relational operation is printed out in the following statement:
+
+    System.out.println(5 < 7);
+
+* The example above will print out true because the statement "5 is less than 7" is true.
+
+## RelationalOperators.java Program ##
+
+public class RelationalOperators
+{
+	public static void main(String[] args)
+  {
+		System.out.println(5<7);
+	}
+}
+
+### Equality Operators ###
+
+* You may have noticed that the relational operators did not include an operator for testing "equals to". In Java, equality operators are used to test equality.
+
+*The equality operators are:
+
+    ==: equal to.
+      !=: not equal to.
+
+* Equality operators do not require that operands share the same ordering. For example, you can test equality across boolean, char, or int data types. The example below combines assigning variables and using an equality operator:
+
+    char myChar = 'A';
+    int myInt = -2;
+    System.out.println(myChar == myInt);
+
+* The example above will print out false because the value of myChar ('A') is not the same value as myInt ('-2').
+
+## EqualityOperators.java Program ##
+
+public class EqualityOperators
+{
+	public static void main(String[] args)
+  {
+		System.out.println(5==5);
+	}
+}
+
+### Generalizations ###
+
+* Data Types are int, boolean, and char.
+
+* Variables are used to store values.
+
+* Whitespace helps make code easy to read for you and others.
+
+* Comments describe code and its purpose.
+
+* Arithmetic Operators include +, -, *, /, and %.
+
+* Relational Operators include <, <=, >, and >=.
+
+* Equality Operators include == and !=.
+
+* Note: A full understanding of these concepts is key to understanding the remainder of the Java course.
+
+## Generalizations.java Program ##
+
+public class Generalizations
+{
+	public static void main(String[] args)
+  {
+    // Declaration of variables.
+		boolean isComplete=true;
+		int awesomeLevel=121;
+		int epicLevel=awesomeLevel*2;
+		System.out.println(epicLevel);
+  }
+}
