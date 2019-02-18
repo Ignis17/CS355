@@ -1,0 +1,44 @@
+<!-- Name: Joel Turbi
+     Assignment: Homework Assignment 1
+     Course: CS 355
+     Professor: Dr. Zavala
+     Date: 01/28/2018 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+  <person>
+    <name>Jonathan James</name>
+    <age>21</age>
+    <relation>Friend</relation>
+    <occupation>Student</occupation>
+    <hobby>Coding</hobby>
+  </person>
+  <person>
+    <name>Deon Desir</name>
+    <age>42</age>
+    <relation>Friend</relation>
+    <occupation>Student</occupation>
+    <hobby>Engineer</hobby>
+  </person>
+  <person>
+    <name>Elvis Rodriguez</name>
+    <age>25</age>
+    <relation>Friend</relation>
+    <occupation>Restaurant Owner</occupation>
+    <hobby>Coding</hobby>
+  </person>
+  <person>
+    <name>Zanith Sandy</name>
+    <age>19</age>
+    <relation>Friend</relation>
+    <occupation>Student</occupation>
+    <hobby>Making music, and enjoying nature</hobby>
+  </person>
+  <person>
+    <name>Eva Cedent</name>
+    <age>28</age>
+    <relation>Best Friend</relation>
+    <occupation>Student</occupation>
+    <hobby>Playing video games, being geeky</hobby>
+  </person>
+</people>
