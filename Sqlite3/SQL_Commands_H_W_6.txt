@@ -1,0 +1,67 @@
+#### SQL Commands For Teams Table ####
+
+1. CREATE TABLE Teams(Team_ID integer NOT NULL PRIMARY KEY AUTOINCREMENT,Team_Name varchar(40),Country varchar(30));
+
+2. INSERT INTO Teams(Team_Name,Country) values('FC Barcelona','Spain');
+
+3. INSERT INTO Teams(Team_Name, Country) values('Chelsea F.C.','United Kingdom');
+
+#### SQL Commands For Players Table ####
+
+1. CREATE TABLE Players(Player_ID integer NOT NULL PRIMARY KEY AUTOINCREMENT,Player_Name varchar(40),Team_ID int,Age int,Country varchar(30));
+
+2. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Lionel Messi',1,31,'Argentina');
+
+3. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Ousmane Dembele',1,21,'France');
+
+4. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Philuppe Coutinho',1,26,'Brazil');
+
+5. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Luis Suarez',1,32,'Uruguay');
+
+6. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Kevin-Prince Boateng',1,32,'West Berlin');
+
+7. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Arthur Melo',1,22,'Brazil');
+
+8. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Arturo Vidal',1,31,'Chile');
+
+9. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Malcom',1,22,'Brazil');
+
+10. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Gerard Pique',1,32,'Spain');
+
+11. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Ivan Rakitic',1,31,'Switzerland');
+
+12. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Jeison Murillo',1,26,'Colombia');
+
+13. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Marc-Andre ter Stegen',1,26,'Germany');
+
+14. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Samuel Umtiti',1,25,'Cameroon');
+
+15. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Jean-Clair Todibo',1,19,'French Guiana');
+
+16. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Gonzalo Higuain',2,31,'France');
+
+17. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Eden Hazard',2,28,'Belgium');
+
+18. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Kepa Arrizabalaga',2,24,'Spain');
+
+19. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('NGolo Kante',2,28,'France');
+
+20. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Jorginho',2,27,'Brazil');
+
+21. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Callum Hudson-Odoi',2,18,'United Kingdom');
+
+22. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Olivier Giroud',2,32,'France');
+
+23. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Pedro',2,31,'Spain');
+
+24. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Willian',2,30,'Brazil');
+
+25. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('David Luiz',2,31,'Brazil');
+
+26. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Willy Caballero',2,37,'Argentina');
+
+27. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Emerson Palmieri',2,24,'Brazil');
+
+28. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Marcos Alonso',2,28,'Spain');
+
+29. INSERT INTO Players(Player_Name,Team_ID,Age,Country) values('Mateo Kovacic',2,24,'Austria');
