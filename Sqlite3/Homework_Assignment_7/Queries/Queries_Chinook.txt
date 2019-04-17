@@ -1,0 +1,7 @@
+### Queries for the Chinook database: ###
+
+1. SELECT DISTINCT customers.city FROM customers;
+
+2. SELECT tracks.Name FROM tracks,media_types WHERE media_types.Name = 'MPEG audio file';
+
+3. SELECT DISTINCT media_types.Name, COUNT(tracks.Name) FROM tracks, media_types WHERE tracks.MediaTypeID =  media_types.MediaTypeID GROUP BY media_types.Name;

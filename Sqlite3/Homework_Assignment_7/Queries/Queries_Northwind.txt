@@ -1,0 +1,9 @@
+### Queries for the Northwind database: ###
+
+1. SELECT DISTINCT Employees.City, Employees.Country FROM Employees GROUP BY Employees.City;
+
+2. SELECT Orders.OrderID, Orders.ShipName, Orders.OrderDate FROM Customers,Orders WHERE Customers.City = 'Paris';
+
+3. SELECT Customers.Country,COUNT(Customers.CustomerID) FROM Customers GROUP BY Customers.Country;
+
+4. SELECT Products.ProductName FROM Products WHERE UnitPrice >= 50;
