@@ -16,6 +16,5 @@ public class WelcomeActivity extends AppCompatActivity {
         String usern = intent.getStringExtra("user");
         TextView msg = (TextView) findViewById(R.id.text1);
         msg.setText("Welcome " + usern);
-
     }
 }

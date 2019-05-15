@@ -24,12 +24,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void validateUser(View v){
+
+    public void validateUser(View view){
         Intent intent = new Intent(this, WelcomeActivity.class);
         EditText name = (EditText) findViewById(R.id.editTextUserName);
         EditText passw = (EditText) findViewById(R.id.editTextPsswd);
-        String username = name.getText().toString();
-        String password = passw.getText().toString();
+        String username = (String) name.getText().toString();
+        String password = (String) passw.getText().toString();
 
         if(LoginManager.isKnownUser(username, password)){
             intent.putExtra("user",username);
